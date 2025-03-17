@@ -1,0 +1,102 @@
+@fontPrincipal: Roboto, sans-serif;
+@fontDoTitulo: Lobster, cursive;
+@corDoTexto: #fff;
+@corDeFundo: rgb(50, 50, 70);
+@corDeFundo2:rgb(89, 36, 174);
+@corDoTextoDoBotao: #000;
+@corDoFundoDoBotao: #f7b731;
+@buttonHover: #f6bb3ce6;
+
+body {
+    background-color: @corDeFundo;
+    font-family: @fontPrincipal;
+    color: @corDoTexto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 3%;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    background-color: @corDeFundo2;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family: @fontDoTitulo;
+    font-size: 3em;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.descricao {
+    font-family: @fontPrincipal;
+    font-size: 24px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 8px;
+}
+
+main {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 2em;
+    text-align: center;
+}
+
+button {
+    padding: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-top: 16px;
+    border-radius: 8px;
+    background-color: @corDoFundoDoBotao;
+    color: @corDoTextoDoBotao;
+    font-family: @fontPrincipal;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    &:hover {
+        background-color:@buttonHover ;
+    }
+}
+
+input {
+    display: block;
+    margin: 16px auto 0;
+    font-size: 2em;
+    max-width: 120px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    color: #fff;
+    border-bottom: 6px solid #fff;
+}
+
+.resultado {
+    padding: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border: 4px dotted #fff;
+    display: none;
+
+    span {
+        font-weight: bold;
+        font-size: 2em;
+        display: block;
+    }
+}
