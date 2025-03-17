@@ -1,7 +1,7 @@
 {
-  "name": "sorteador-casal",
+  "name": "sorteador-numeros-daniel-palmeira",
   "version": "1.0.0",
-  "description": "Projeto de um sorteador de atividades para os casais se divertirem na organização das tarefas domësticas ",
+  "description": "Projeto de um sorteador de números aleatório. ",
   "license": "ISC",
   "author": "Daniel Palmeira",
   "type": "commonjs",
